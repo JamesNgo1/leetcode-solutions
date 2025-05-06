@@ -7,14 +7,14 @@ public class TreeNode {
     public TreeNode right;
 
     // multiple constructors for java is called constructor overloading
-    TreeNode() {
+    public TreeNode() {
     }
 
-    TreeNode(int val) {
+    public TreeNode(int val) {
         this.val = val;
     }
 
-    TreeNode(int val, TreeNode left, TreeNode right) {
+    public TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
