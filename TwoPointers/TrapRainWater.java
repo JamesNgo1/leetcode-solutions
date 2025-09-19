@@ -1,6 +1,14 @@
 package TwoPointers;
 
 public class TrapRainWater {
+     
+      public int trap2Pointers(int[] height){
+
+        return 0;
+      }
+
+      // below is the solution for prefix and suffix 
+      // o(n) for time and space complexity
       public int trap(int[] height) {
 
         // on each index 
